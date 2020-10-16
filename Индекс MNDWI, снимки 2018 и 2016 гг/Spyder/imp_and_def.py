@@ -22,7 +22,7 @@ sns.set(font_scale=1.5)
 
 # Download data and set working directory
 data = et.data.get_data('cold-springs-fire')
-os.chdir(os.path.join(et.io.HOME, 'Landsat_8', 'data'))
+os.chdir(os.path.join(et.io.HOME, 'earth-analytics', 'data'))
 
 def CreatePath(input_path, inp_p, output_path, out_p):
     # Создаем путь к снимку
